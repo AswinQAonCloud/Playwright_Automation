@@ -79,3 +79,10 @@ export default defineConfig({
   // },
 });
 
+module.exports = {
+  testDir: './tests',
+  testMatch: '**/*.spec.js', // or your custom pattern
+  use: {
+    headless: false, // default for debugging
+  },
+};
